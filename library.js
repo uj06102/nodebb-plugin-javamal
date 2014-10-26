@@ -1,10 +1,10 @@
-module.exports.parse = function(postContent, callback) {
-    postContent = postContent.replace(/<a href="(?:https?:\/\/)?(?:www\.)?(?:youtube\.com|youtu\.be)\/(?:watch\?v=)?(.+)<\/a>/g, '<iframe class="youtube-plugin" width="640" height="360" src="http://www.youtube.com/embed/$1" frameborder="0" allowfullscreen></iframe>');
+module.exports.parse = function javamal(postContent, callback) {
+    postContent = postContent.replace(/<tr><td><a href="javascript:hideshow('javamal')">자바말<\/a><\/td><\/tr>/g, '<iframe width="1400" height="600" src="http://hanaone.com/turtle3d"></iframe>
     callback(null, postContent);
 };
 
-function fold(code, index, isFolded){
-    if(isFolded){
-        
+function hideshow(javamal) {
+    document.all.javamal.style.display = "none";
+    var obj = eval("document.all." + javamal);
+    obj.style.display = "block"
     }
-}
