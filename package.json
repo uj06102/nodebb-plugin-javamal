@@ -1,0 +1,31 @@
+{
+  "name": "nodebb-plugin-javamal",
+  "version": "0.0.1",
+  "description": "NodeBB Javamal Plugin",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uj06102/nodebb-plugin-javamal"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "javamal",
+    "test(beta)"
+  ],
+  "author": {
+    "name": "uj06102",
+    "email": "uj06102@naver.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/uj06102/nodebb-plugin-javamal/issues"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "_id": "nodebb-plugin-javamal@0.0.1",
+  "_from": "nodebb-plugin-javamal@~0.0.1"
+}
