@@ -2,7 +2,7 @@
       "id": "nodebb-plugin-javamal"
     , "name": "NodeBB Javamal Plugin"
     , "description": "NodeBB Plugin that allows users to use JAVAMAL on Hanaone.com/turtle3d."
-    , "url":
+    , "url": "https://github.com/uj06102/nodebb-plugin-javamal"
     , "library": "./library.js"
     , "hooks": [
         {
